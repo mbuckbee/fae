@@ -1,4 +1,4 @@
-class CreateFaeImagesTable < ActiveRecord::Migration
+class CreateFaeImagesTable < ActiveRecord::Migration[5.0]
   def change
     create_table(:fae_images) do |t|
       t.string :name
