@@ -1,4 +1,4 @@
-class CreateFaeOptions < ActiveRecord::Migration
+class CreateFaeOptions < ActiveRecord::Migration[5.0]
   def change
     create_table :fae_options do |t|
       t.string :title
