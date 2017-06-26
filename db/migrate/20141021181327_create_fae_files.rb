@@ -1,4 +1,4 @@
-class CreateFaeFiles < ActiveRecord::Migration
+class CreateFaeFiles < ActiveRecord::Migration[5.0]
   def change
     create_table :fae_files do |t|
       t.string :name
